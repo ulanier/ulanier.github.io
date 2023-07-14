@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.parent{
+  			filter: drop-shadow(7px 7px);
+			position: relative;
+		}
+		.red{
+			background-color: white;
+			width: 400px;
+			height: 200px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 10;
+			border:solid;
+			border-color: black;
+			border-width:thin;
+		}
+		.green{
+			width: 400px;
+			height: 200px;
+			background-color: white;
+			position: absolute;
+			top: 30px;
+			left: 20px;
+			border:solid;
+			border-color: black;
+			border-width:thin;
+		}
+
+		.message{
+			text-align: justify;
+			margin: 2px;
+		}
+		.stud_name{
+			margin: 0px;
+			color: black;
+			position: absolute;
+			bottom: 6px;
+			left: 30px;
+		}
+		.profile{
+			height: 25px;
+			width: 25px;
+			position: absolute;
+			bottom: 2px;
+			left: 2px;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="red">
+			<p class="message">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		</div>
+		<div class="green">
+			<img class="profile" src="rainiermabaylan.jpg">
+			<p class="stud_name">Marc Rainier Mabaylan</p>
+		</div>
+	</div>
+</body>
+</html>
