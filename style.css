@@ -1,0 +1,98 @@
+
+/*		* {border: #ff4545; border-style:solid; border-width: 1px;}*/
+		* {color: #1f1f1f; margin: 0px; padding: 0px; font-family: Helvetica}
+		body{
+			background-color: #dfe5f0;
+		}
+
+		h1{
+			color: black;
+			font-size: 25px;
+			text-align: left;
+		}
+
+		#navbar{
+			background: #343434;
+			height: 50px;
+			padding-left: 50px;
+		}
+
+		#navbar div{
+			display: inline-block;
+			padding:10px;
+			padding-top: 15px;
+			background: #343434;
+			height: auto;
+			width: auto;
+			font-size: 15px;
+			position: ;
+		}
+		#navbar div a{
+			color: white;
+			text-decoration: none;
+
+		}
+
+		#main_container{
+			width: 65%;
+			border: solid;
+			border-width: thin;
+			border-top: #b8b8b8;
+			border-bottom: #b8b8b8;
+			border-color: #b8b8b8;
+			text-align: center;
+			margin: auto;
+			vertical-align: middle;
+		}
+		#teacher_header{
+			margin: auto;
+			width: 85%;
+			text-align: left;
+			height: 100px;
+/*			background-color: red;*/
+		}
+
+		.text_block{
+			margin-bottom: 50px;
+		}
+		.parent{
+  			filter: drop-shadow(10px 7px);
+			margin: auto;
+			width: 85%;
+			height: auto;
+		}
+		.top{
+			background-color: white;
+			width: 100%;
+			height: auto;
+			border:solid;
+			border-color: black;
+			border-width:thin;
+		}
+
+		.message{
+			text-align: justify;
+			margin:10px;
+		}
+		.stud_name{
+			margin: 7px;
+			color: black;
+			text-align: right;
+			position: absolute;
+			right: 60px;
+			bottom: 7px;
+		}
+
+		.profile{
+			height: 35px;
+			width: 35px;
+			float: right;
+			border-radius: 30px;
+			margin-bottom: 5px;
+		}
+		.info{
+			width: 97%;
+			text-align: right;
+			height: 40px;
+
+		}
