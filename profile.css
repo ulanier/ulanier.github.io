@@ -156,6 +156,8 @@
 			border-width:thin;
 		}
 		.pic{
+			margin: none;
+			padding: none;
 			width: 100%;
 		}
 		.top p{
