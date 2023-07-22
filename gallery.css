@@ -7,7 +7,7 @@
 
 		h1{
 			color: black;
-			font-size: 25px;
+			font-size: 30px;
 			text-align: left;
 		}
 
@@ -79,7 +79,7 @@
 
 		h1{
 			color: black;
-			font-size: 25px;
+			font-size: 30px;
 			text-align: left;
 		}
 
@@ -116,6 +116,7 @@
 			margin: auto;
 			vertical-align: middle;
 		}
+
 		#teacher_header{
 			margin: auto;
 			width: 85%;
@@ -125,11 +126,12 @@
 
 		.text_block{
 			margin-bottom: 50px;
+			border-radius: ;
 		}
 		.parent{
   			filter: drop-shadow(10px 7px);
 			margin: auto;
-			width: 85%;
+			width: 75%;
 			height: auto;
 		}
 		.top{
@@ -139,7 +141,10 @@
 			border:solid;
 			border-color: black;
 			border-width:thin;
+			border-radius:10px ;
 		}
 		.pic{
 			width: 100%;
+			border-radius:10px ;
+			margin-bottom: -5px;
 		}
