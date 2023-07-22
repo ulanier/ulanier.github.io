@@ -53,11 +53,12 @@
 
 		.text_block{
 			margin-bottom: 50px;
+			border-radius: ;
 		}
 		.parent{
   			filter: drop-shadow(10px 7px);
 			margin: auto;
-			width: 85%;
+			width: 75%;
 			height: auto;
 		}
 		.top{
@@ -67,9 +68,12 @@
 			border:solid;
 			border-color: black;
 			border-width:thin;
+			border-radius:10px ;
 		}
 		.pic{
 			width: 100%;
+			border-radius:10px ;
+			margin-bottom: -5px;
 		}
 @media only screen and (min-width: 1300px){
 		* {color: #1f1f1f; margin: 0px; padding: 0px; font-family: Helvetica}
